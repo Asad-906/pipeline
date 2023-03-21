@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 RUN ls -lsa
-WORKDIR home/fahad
+WORKDIR home/wajahat/downloads/pipline
 COPY requirments.txt .
 RUN pip install -r requirments.txt
 COPY . .
